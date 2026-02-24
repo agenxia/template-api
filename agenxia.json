@@ -1,0 +1,22 @@
+{
+  "name": "API Agent",
+  "description": "Advanced agent with external API integrations, webhooks, and caching",
+  "type": "template",
+  "complexity": "intermediate",
+  "features": [
+    "External API integrations",
+    "Webhook support",
+    "Built-in caching",
+    "Rate limiting",
+    "Error handling",
+    "Request validation"
+  ],
+  "env_vars": [
+    "API_VERSION",
+    "NODE_ENV",
+    "AGENT_NAME",
+    "CACHE_TTL",
+    "RATE_LIMIT"
+  ],
+  "icon": "🔌"
+}

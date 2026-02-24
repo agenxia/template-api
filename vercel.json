@@ -1,0 +1,12 @@
+{
+  "functions": {
+    "api/**/*.js": {
+      "runtime": "@vercel/node@3"
+    }
+  },
+  "env": {
+    "API_VERSION": "{{API_VERSION}}",
+    "AGENT_NAME": "{{AGENT_NAME}}",
+    "CACHE_TTL": "3600"
+  }
+}
